@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: poppins;
+    background-image: url(https://img.freepik.com/free-photo/3d-render-grunge-dark-interior-with-light-from-side-windows_1048-13351.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+.f1{
+    color: rgb(219, 32, 88);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.n1{
+    color: rgb(219, 32, 88);
+    font-weight: bold;
+
+}
+nav{
+    padding: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    
+}
+nav ul {
+    display: flex;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+#right ul li a:hover{
+    color: rgb(219, 32, 88);
+    font-size: 1.08rem;
+
+}
+#left{
+    font-size: 50px;
+    color: rgb(219, 32, 88);
+    display:flex;
+}
+#left p{
+    color: white;
+    font-size: 20px;
+    padding: 1px;
+    margin-top: 35px;
+    font-style: italic;
+}
+#aa{
+    background-image: url(blob:https://web.whatsapp.com/8595555e-a13e-4ed7-b32e-4b868933e45d);
+    background-size: cover;
+    background-position: center;
+}
+.firsts{
+    display: flex;
+    justify-content: space-around;
+    margin:23px 0;
+}
+#firsts div{
+    width: 30%;
+}
+#rights{
+    background-color: rgba(49, 44, 44, 0.315);
+    width: 60%;
+    height: 60%;
+    margin: 105px 40px; 
+    padding: 40px 40px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgb(223, 219, 219) inset;
+    
+}
+#rights:hover{
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    background-color: rgba(0, 0, 0, 0.651);
+    
+}
+#conc{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+#lefts{
+    margin: 0 90px;
+    width: 40%;
+}
+
+#lefts img{
+    width: 100%;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#but button a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+#but button a:hover{
+    color: rgb(223, 187, 209);
+    font-size: 16px;
+    
+}
+#but button{
+    background-color:rgb(219, 32, 88) ;
+    margin: 10px ;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 60px;
+    box-shadow: 5px 10px 20px rgb(207, 80, 80) inset;
+}
+#but{
+    padding: 10px 260px;
+    
+}
+
+
+
+footer{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.507);
+}
